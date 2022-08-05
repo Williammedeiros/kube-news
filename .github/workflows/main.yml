@@ -27,6 +27,6 @@ jobs:
           push: true
           tags: |
             williammedeiros007/kube-news:latest
-            williammedeiros007/kube-news:${{github_run_number}}
+            williammedeiros007/kube-news:${{github.run_number}}
         
        
