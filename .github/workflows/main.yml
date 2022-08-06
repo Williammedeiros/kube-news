@@ -45,6 +45,6 @@ jobs:
         uses: Azure/k8s-deploy@v4.3
         with: 
           - images:       
-             williammedeiros007/kube-news:${{github.run_number}}
+              williammedeiros007/kube-news:${{github.run_number}}
             manifests: |
                k8s/deployment.yaml
