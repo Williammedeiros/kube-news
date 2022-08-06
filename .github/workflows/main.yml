@@ -47,4 +47,4 @@ jobs:
          - images:       
              williammedeiros007/kube-news:${{github.run_number}}
            manifests: |
-               k8s/deploymesnt.yaml
+               k8s/deployment.yaml
